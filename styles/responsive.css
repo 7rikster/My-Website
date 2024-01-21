@@ -1,0 +1,103 @@
+@media (max-width: 1380px){
+    header{
+        padding: 18px 2%;
+        transition: 0.2s;
+    }
+    /* section{
+        padding: 100px 2%;
+        transition: 0.3s;
+    } */
+    .about{
+        padding: 80px 4rem;
+        transition: 0.3s;
+    }
+    .contact{
+        padding: 80px 2rem;
+        transition: 0.3s;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1120px){
+    header{
+        padding: 14px 2%;
+    }
+    .home{
+        height: 85vh;
+        transition: 0.3s;
+        padding: 150px 2%;
+    }
+    .home-image{
+        width: 20rem;
+        height: 20rem;
+    }
+    .bg-outer{
+        width: 20rem;
+        height: 20rem;
+        margin-right: 2%;
+    }
+    .bg-outer img{
+        width: 100%;
+        width: 18em;
+        height: 18em;
+    }
+    .about{
+        height: 85vh;
+        transition: 0.3s;
+        padding: 1rem 3rem;
+        /* padding-top: 1rem; */
+    }
+    .about-container{
+        margin-top: 2rem;
+    }
+    .about-image{
+        width: 18rem;
+    }
+
+    .skills{
+        height: 85vh;
+        transition: 0.3s;
+        padding: 1rem 3rem;
+    }
+    .skills-container{
+        width: 46rem;
+        height: 30rem;
+    }
+    .skills-cards{
+        width: 14rem;
+        height: 14rem;
+    }
+    .skills-cards i{
+        font-size: 2rem;
+    
+    }
+    .skills-cards h3{
+        font-size: 1rem;
+        margin-top: 1.4rem;
+        font-weight: 500;
+    }
+    .skills-cards p{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+
+    .projects{
+        height: 85vh;
+        transition: 0.3s;
+        padding: 1rem 3rem;
+    }
+    .project-card{
+        width: 13rem;
+        height: 15em;
+    }
+    .project-info p{
+        font-size: 0.8rem;
+    }
+
+    .contacts{
+        height: 85vh;
+        transition: 0.3s;
+        padding: 150px 2%;
+    }
+}
